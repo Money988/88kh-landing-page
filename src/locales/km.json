@@ -1,0 +1,37 @@
+{
+  "cards": {
+    "playNow": "លេងឥឡូវ",
+    "sportsbook": "កីឡា",
+    "cockfight": "បក្សីកីឡា",
+    "casino": "កាស៊ីណូ",
+    "slot": "ហ្គេម",
+    "games": "ហ្គេម",
+    "supportTitle": "ទំនាក់ទំនងតាម Telegram"
+  },
+  "support": {
+    "accountTitle": "បង្កើតគណនីឥឡូវនេះ!",
+    "bettingTitle": "ចាក់ឆ្នោតវៀតណាមឥឡូវនេះ!",
+    "otherIssuesTitle": "មតិយោបល់ ឬ បញ្ហាផ្សេងៗ",
+    "joinTelegram": "ទំនាក់ទំនងតាម Telegram",
+    "customerSupport": "ភ្នាក់ងារសេវាអតិថិជន",
+    "sportsbookTeam": "ក្រុមកីឡា",
+    "vipService": "សេវាកម្ម VIP",
+    "registrationHelp": "ជំនួយការចុះឈ្មោះ",
+    "newMemberGuide": "ណែនាំសមាជិកថ្មី",
+    "depositSupport": "ជំនួយការដាក់ប្រាក់",
+    "bettingSupport": "ជំនួយការភ្នាល់",
+    "liveOddsHelp": "ជំនួយតម្លៃផ្សាយផ្ទាល់",
+    "withdrawSupport": "ជំនួយការដកប្រាក់",
+    "technicalHelp": "ជំនួយបច្ចេកទេស",
+    "accountRecovery": "ស្តារគណនី",
+    "generalInquiry": "សំណួរទូទៅ",
+    "click_here_for_register": "ចុចទីនេះ ដើម្បីបើកគណនី",
+    "click_here_for_betting": "ចុចទីនេះ ដើម្បីចាក់ឆ្នោត",
+    "click_here_for_feedback": "ចុចទីនេះ ដើម្បីផ្តល់មតិយោបល់"
+  },
+  "sites": {
+    "sportsbook": "ភ្នាល់កីឡា និងផ្សាយផ្ទាល់",
+    "cockfight": "ផ្សាយផ្ទាល់បក្សីកីឡា",
+    "slot": "ហ្គេមស្លុតល្បីៗ"
+  }
+}

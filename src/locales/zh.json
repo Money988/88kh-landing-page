@@ -1,0 +1,33 @@
+{
+  "cards": {
+    "playNow": "立即游戏",
+    "sportsbook": "体育",
+    "cockfight": "斗鸡",
+    "casino": "赌场",
+    "slot": "老虎机",
+    "supportTitle": "Telegram 支持"
+  },
+  "support": {
+    "accountTitle": "立即创建账户！",
+    "bettingTitle": "立即下注！",
+    "otherIssuesTitle": "其他问题",
+    "joinTelegram": "Telegram 支持",
+    "customerSupport": "客户支持",
+    "sportsbookTeam": "体育团队",
+    "vipService": "VIP 服务",
+    "registrationHelp": "注册帮助",
+    "newMemberGuide": "新会员指南",
+    "depositSupport": "充值帮助",
+    "bettingSupport": "投注帮助",
+    "liveOddsHelp": "实时赔率帮助",
+    "withdrawSupport": "提款帮助",
+    "technicalHelp": "技术支持",
+    "accountRecovery": "账户恢复",
+    "generalInquiry": "一般咨询"
+  },
+  "sites": {
+    "sportsbook": "体育博彩与实时赔率",
+    "cockfight": "实时斗鸡投注",
+    "slot": "高端老虎机游戏"
+  }
+}

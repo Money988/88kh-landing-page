@@ -1,0 +1,33 @@
+{
+  "cards": {
+    "playNow": "Chơi ngay",
+    "sportsbook": "Thể thao",
+    "cockfight": "Đá gà",
+    "casino": "Sòng bạc",
+    "slot": "Máy đánh bạc",
+    "supportTitle": "Hỗ trợ Telegram"
+  },
+  "support": {
+    "accountTitle": "Tạo tài khoản ngay!",
+    "bettingTitle": "Chơi xổ số Việt Nam ngay!",
+    "otherIssuesTitle": "Vấn đề khác",
+    "joinTelegram": "Hỗ trợ Telegram",
+    "customerSupport": "Hỗ trợ khách hàng",
+    "sportsbookTeam": "Đội ngũ thể thao",
+    "vipService": "Dịch vụ VIP",
+    "registrationHelp": "Hỗ trợ đăng ký",
+    "newMemberGuide": "Hướng dẫn thành viên mới",
+    "depositSupport": "Hỗ trợ nạp tiền",
+    "bettingSupport": "Hỗ trợ đặt cược",
+    "liveOddsHelp": "Hỗ trợ tỷ lệ trực tiếp",
+    "withdrawSupport": "Hỗ trợ rút tiền",
+    "technicalHelp": "Hỗ trợ kỹ thuật",
+    "accountRecovery": "Khôi phục tài khoản",
+    "generalInquiry": "Thắc mắc chung"
+  },
+  "sites": {
+    "sportsbook": "CƯỢC THỂ THAO & TỶ LỆ TRỰC TIẾP",
+    "cockfight": "CƯỢC ĐÁ GÀ TRỰC TIẾP",
+    "slot": "TRÒ CHƠI MÁY ĐÁNH BẠC CAO CẤP"
+  }
+}

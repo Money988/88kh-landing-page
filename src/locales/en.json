@@ -1,0 +1,37 @@
+{
+  "cards": {
+    "playNow": "Play now",
+    "sportsbook": "Sportsbook",
+    "cockfight": "Cockfight",
+    "casino": "Casino",
+    "slot": "Slot",
+    "games": "Games",
+    "supportTitle": "Telegram Support"
+  },
+  "support": {
+    "accountTitle": "Create an account now!",
+    "bettingTitle": "Bet on Vietnam Lottery Now!",
+    "otherIssuesTitle": "Other issues",
+    "joinTelegram": "Telegram Support",
+    "customerSupport": "Customer Support",
+    "sportsbookTeam": "Sportsbook Team",
+    "vipService": "VIP Service",
+    "registrationHelp": "Registration Help",
+    "newMemberGuide": "New Member Guide",
+    "depositSupport": "Deposit Support",
+    "bettingSupport": "Betting Support",
+    "liveOddsHelp": "Live Odds Help",
+    "withdrawSupport": "Withdraw Support",
+    "technicalHelp": "Technical Help",
+    "accountRecovery": "Account Recovery",
+    "generalInquiry": "General Inquiry",
+    "click_here_for_register": "Click here to open an account",
+    "click_here_for_betting": "Click here to place a bet",
+    "click_here_for_feedback": "Click here for feedback"
+  },
+  "sites": {
+    "sportsbook": "SPORTS BETTING & LIVE ODDS",
+    "cockfight": "LIVE COCKFIGHT BETTING",
+    "slot": "PREMIUM SLOT GAMES"
+  }
+}
