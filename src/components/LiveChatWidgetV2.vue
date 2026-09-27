@@ -77,12 +77,12 @@ const openLiveChat = () => {
 onMounted(() => {
     initLiveChat();
 
-    const websiteName = '88KH';
+    const websiteName = 'Guest';
 
     window.LiveChatWidget.on('ready', () => {
         window.LiveChatWidget.call(
             'set_customer_name',
-            `[${websiteName}]`,
+            `${websiteName}`,
         );
 
         window.LiveChatWidget.call('set_session_variables', {
