@@ -80,10 +80,10 @@ const setLanguage = (language: SupportedLocale) => {
                 :href="link.url"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="group flex items-center justify-start gap-2 lg:gap-3 rounded-2xl border border-white/10 bg-gray-700/10 px-3 lg:px-4 py-3 transition-all duration-300 hover:border-red-400/40 hover:bg-red-500/5 hover:shadow-[0_0_0_1px_rgba(248,113,113,0.15),0_8px_18px_rgba(239,68,68,0.12)]"
+                class="group flex items-center justify-start gap-2 lg:gap-3 rounded-2xl bg-gray-400/10 px-3 lg:px-4 py-3.5 transition-all duration-300 hover:border-red-400/30 hover:shadow-[0_0_0_1px_rgba(248,113,113,0.15),0_8px_18px_rgba(239,68,68,0.12)]"
               >
-                <div class="inline-flex items-center justify-center size-11 lg:size-12 rounded-full shrink-0 bg-white/10 text-blue-400 lg:group-hover:bg-white/20 lg:group-hover:text-white transition-colors duration-200">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 animate-jiggle">
+                <div class="inline-flex items-center justify-center size-10 lg:size-12 rounded-full shrink-0 bg-[#228BFE] text-white lg:group-hover:bg-white/15 transition-colors duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5.5 lg:size-6 animate-jiggle">
                     <path d="M21.9 3.2 18.7 20c-.2 1.2-.9 1.5-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.2-8.3c.4-.4-.1-.6-.6-.2L6.1 13.6l-4.9-1.5c-1.1-.3-1.1-1.1.2-1.6L20.6 3c.9-.3 1.7.2 1.3.2Z"></path>
                   </svg>
                 </div>
@@ -91,7 +91,7 @@ const setLanguage = (language: SupportedLocale) => {
                   <p class="mt-1 text-sm font-semibold text-gray-100 leading-none">{{ link.handle }}</p>
                   <p class="text-[11px] font-hanuman underline tracking-wide text-yellow-600">{{ t(`support.${link.key}`) }}</p>
                 </div>
-                <span class="size-8 lg:size-9 inline-flex items-center justify-center rounded-full transition-all group-hover:translate-x-1 border border-white/10 bg-slate-900/80">
+                <span class="size-7 lg:size-9 inline-flex items-center justify-center rounded-full transition-all group-hover:translate-x-1 border border-white/5 bg-slate-900/60">
                   <span class="text-lg text-red-200 -mt-1">→</span>
                 </span>
               </a>
