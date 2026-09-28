@@ -62,7 +62,7 @@ const setLanguage = (language: SupportedLocale) => {
         />
       </div>
 
-      <section id="contact-us" class="mt-4 lg:mt-10 rounded-2xl lg:rounded-2xl border border-gray-100/10 bg-gray-800/10 p-4 lg:p-6 shadow-[0_20px_60px_rgba(15,23,42,0.4)] backdrop-blur-md">
+      <section id="contact-us" class="mt-4 lg:mt-10 rounded-2xl lg:rounded-2xl border border-gray-100/10 bg-black/10 p-4 lg:p-6 shadow-[0_20px_60px_rgba(15,23,42,0.4)] backdrop-blur-md">
         <div class="grid gap-5 lg:gap-7 md:grid-cols-3">
           <div
             v-for="group in supportGroups"
@@ -70,7 +70,7 @@ const setLanguage = (language: SupportedLocale) => {
           >
             <div class="mb-3 lg:mb-4 flex items-center gap-2">
               <img class="size-7 lg:size-8 shrink-0" :src="group.icon" alt="">
-              <h3 class="text-base lg:text-lg font-bold text-white">{{ group.title }}</h3>
+              <h3 class="text-base lg:text-lg font-bold text-gray-100">{{ group.title }}</h3>
             </div>
 
             <div class="space-y-3">
@@ -79,7 +79,7 @@ const setLanguage = (language: SupportedLocale) => {
                 :key="link.handle"
                 :href="link.url"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 class="group flex items-center justify-start gap-2 lg:gap-3 rounded-2xl border border-white/10 bg-gray-700/10 px-3 lg:px-4 py-3 transition-all duration-300 hover:border-red-400/40 hover:bg-red-500/5 hover:shadow-[0_0_0_1px_rgba(248,113,113,0.15),0_8px_18px_rgba(239,68,68,0.12)]"
               >
                 <div class="inline-flex items-center justify-center size-11 lg:size-12 rounded-full shrink-0 bg-white/10 text-blue-400 lg:group-hover:bg-white/20 lg:group-hover:text-white transition-colors duration-200">
@@ -88,7 +88,7 @@ const setLanguage = (language: SupportedLocale) => {
                   </svg>
                 </div>
                 <div class="flex-1 flex flex-col gap-1.5">
-                  <p class="mt-1 text-sm font-semibold text-white leading-none">{{ link.handle }}</p>
+                  <p class="mt-1 text-sm font-semibold text-gray-100 leading-none">{{ link.handle }}</p>
                   <p class="text-[11px] font-hanuman underline tracking-wide text-yellow-600">{{ t(`support.${link.key}`) }}</p>
                 </div>
                 <span class="size-8 lg:size-9 inline-flex items-center justify-center rounded-full transition-all group-hover:translate-x-1 border border-white/10 bg-slate-900/80">
