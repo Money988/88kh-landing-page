@@ -15,7 +15,7 @@ export const seedWebsites = [
     nameKeys: ['cards.sportsbook'],
     thumbnailMobile: [
       `${CDN}/sportsbook/mobile/v2/855-sport.webp`,
-      `${CDN}/sportsbook/mobile/v2/live-sport.webp`,
+      `${CDN}/sportsbook/mobile/v2/live789-sport.webp`,
       `${CDN}/sportsbook/mobile/v2/sbc-sport.webp`,
     ],
     thumbnail: [

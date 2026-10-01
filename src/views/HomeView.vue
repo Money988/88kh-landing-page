@@ -95,7 +95,7 @@ const setLanguage = (language: SupportedLocale) => {
                 </span>
                 <span class="min-w-0 flex-1">
                   <strong class="block overflow-hidden text-ellipsis whitespace-nowrap text-[15px] lg:text-base font-extrabold leading-tight tracking-[-0.04em] text-slate-900">{{ link.handle }}</strong>
-                  <small class="mt-1 block text-[11px] leading-tight text-slate-700/70 underline underline-offset-2 sm:text-xs">{{ t(`support.${link.key}`) }}</small>
+                  <small class="mt-1 block text-[11px] leading-tight text-slate-700 underline underline-offset-2 sm:text-xs">{{ t(`support.${link.key}`) }}</small>
                 </span>
                 <span class="size-7 inline-flex justify-center items-center shrink-0 rounded-full bg-linear-to-br from-[#26c8ff] via-[#0d90ea] to-[#0f7ae2] transition-transform duration-200 group-hover:translate-x-0.5 shadow-[0_10px_18px_rgba(14,165,233,0.2)]">
                   <span class="text-[22px] -mt-1.25 leading-none text-white">→</span>
