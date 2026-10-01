@@ -24,7 +24,10 @@
     "withdrawSupport": "提款帮助",
     "technicalHelp": "技术支持",
     "accountRecovery": "账户恢复",
-    "generalInquiry": "一般咨询"
+    "generalInquiry": "一般咨询",
+    "click_here_for_register": "点击这里开设账户",
+    "click_here_for_betting": "点击这里进行投注",
+    "click_here_for_feedback": "点击这里提供反馈"
   },
   "sites": {
     "sportsbook": "体育博彩与实时赔率",

@@ -221,3 +221,13 @@ body {
     transform: scaleZ(1);
   }
 }
+
+.telegram-support-shell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 10% 20%, rgba(147, 197, 253, 0.3), transparent 15%),
+    radial-gradient(circle at 80% 25%, rgba(147, 197, 253, 0.2), transparent 18%),
+    radial-gradient(circle at 50% 90%, rgba(34, 211, 238, 0.12), transparent 28%);
+  pointer-events: none;
+}

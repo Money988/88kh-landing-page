@@ -24,7 +24,10 @@
     "withdrawSupport": "Hỗ trợ rút tiền",
     "technicalHelp": "Hỗ trợ kỹ thuật",
     "accountRecovery": "Khôi phục tài khoản",
-    "generalInquiry": "Thắc mắc chung"
+    "generalInquiry": "Thắc mắc chung",
+    "click_here_for_register": "Nhấp vào đây để mở tài khoản",
+    "click_here_for_betting": "Nhấp vào đây để đặt cược",
+    "click_here_for_feedback": "Nhấp vào đây để phản hồi"
   },
   "sites": {
     "sportsbook": "CƯỢC THỂ THAO & TỶ LỆ TRỰC TIẾP",

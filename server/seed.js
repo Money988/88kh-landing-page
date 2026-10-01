@@ -14,14 +14,14 @@ export const seedWebsites = [
     icon: '⚽',
     nameKeys: ['cards.sportsbook'],
     thumbnailMobile: [
-      `${CDN}/sportsbook/mobile/855-mockup.webp`,
-      `${CDN}/sportsbook/mobile/live-mockup.webp`,
-      `${CDN}/sportsbook/mobile/sbc-mockup.webp`,
+      `${CDN}/sportsbook/mobile/v2/855-sport.webp`,
+      `${CDN}/sportsbook/mobile/v2/live-sport.webp`,
+      `${CDN}/sportsbook/mobile/v2/sbc-sport.webp`,
     ],
     thumbnail: [
-      `${CDN}/sportsbook/855-mockup.webp`,
-      `${CDN}/sportsbook/live-mockup.webp`,
-      `${CDN}/sportsbook/sbc-mockup.webp`,
+      `${CDN}/sportsbook/v2/855-sport.webp`,
+      `${CDN}/sportsbook/v2/live789-sport.webp`,
+      `${CDN}/sportsbook/v2/sbc-sport.webp`,
     ],
   },
   {

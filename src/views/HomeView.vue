@@ -62,37 +62,43 @@ const setLanguage = (language: SupportedLocale) => {
         />
       </div>
 
-      <section id="contact-us" class="mt-4 lg:mt-10 rounded-2xl lg:rounded-2xl border border-gray-100/10 bg-black/10 p-4 lg:p-6 shadow-[0_20px_60px_rgba(15,23,42,0.4)] backdrop-blur-md">
-        <div class="grid gap-5 lg:gap-7 md:grid-cols-3">
+      <section
+        id="contact-us"
+        class="telegram-support-shell relative mt-4 overflow-hidden rounded-[20px] lg:rounded-3xl border border-[#92d6ff2e] bg-[rgba(8,26,61,0.36)] p-4 shadow-[0_28px_60px_rgba(7,14,30,0.42)] sm:p-5 lg:mt-10 lg:p-6"
+      >
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-3 flex-col gap-6">
           <div
-            v-for="group in supportGroups"
+            v-for="(group, groupIndex) in supportGroups"
             :key="group.title"
+            class="flex flex-col gap-2 lg:gap-3"
           >
-            <div class="mb-3 lg:mb-4 flex items-center gap-2">
-              <img class="size-7 lg:size-8 shrink-0" :src="group.icon" alt="">
-              <h3 class="text-base lg:text-lg font-bold text-gray-100">{{ group.title }}</h3>
+            <div
+              class="inline-flex min-h-10 w-fit items-center gap-2 rounded-full text-white"
+            >
+              <img class="size-7 object-contain shrink-0" :src="group.icon" alt="" />
+              <h3 class="m-0 text-lg font-extrabold leading-none lg:text-xl">{{ group.title }}</h3>
             </div>
 
-            <div class="space-y-3">
+            <div class="flex flex-col gap-3 lg:gap-3.5">
               <a
                 v-for="link in group.links"
                 :key="link.handle"
                 :href="link.url"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="group flex items-center justify-start gap-2 lg:gap-3 rounded-2xl bg-gray-400/10 px-3 lg:px-4 py-3.5 transition-all duration-300 hover:border-red-400/30 hover:shadow-[0_0_0_1px_rgba(248,113,113,0.15),0_8px_18px_rgba(239,68,68,0.12)]"
+                class="group flex w-full items-center gap-2 rounded-full border border-[#61bbffcc] bg-linear-to-b from-[#fafafff0] to-[#e7f0f9e0] p-2 text-slate-900 shadow-[inset_0_0_0_1px_rgba(255,255,255,0.6),0_14px_18px_rgba(17,101,184,0.15)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.65),0_18px_22px_rgba(17,101,184,0.2)] sm:gap-2.5 px-2.5 sm:px-2.5"
               >
-                <div class="inline-flex items-center justify-center size-10 lg:size-11 rounded-full shrink-0 bg-[#228BFE] text-white lg:group-hover:bg-blue-500 transition-colors duration-200">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5.5 lg:size-6 animate-jiggle">
-                    <path d="M21.9 3.2 18.7 20c-.2 1.2-.9 1.5-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.2-8.3c.4-.4-.1-.6-.6-.2L6.1 13.6l-4.9-1.5c-1.1-.3-1.1-1.1.2-1.6L20.6 3c.9-.3 1.7.2 1.3.2Z"></path>
+                <span class="inline-flex size-10 lg:size-12 shrink-0 items-center justify-center rounded-full bg-linear-to-br from-[#26b6ff] via-[#0894df] to-[#0a7fe0] text-white shadow-[0_12px_18px_rgba(14,165,233,0.26)]">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="size-6 lg:size-7 animate-jiggle">
+                    <path d="M21.9 3.2 18.7 20c-.2 1.2-.9 1.5-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.2-8.3c.4-.4-.1-.6-.6-.2L6.1 13.6l-4.9-1.5c-1.1-.3-1.1-1.1.2-1.6L20.6 3c.9-.3 1.7.2 1.3.2Z"/>
                   </svg>
-                </div>
-                <div class="flex-1 flex flex-col gap-1.5">
-                  <p class="mt-1 text-sm font-semibold text-gray-100 leading-none">{{ link.handle }}</p>
-                  <p class="text-[11px] font-hanuman underline tracking-wide text-yellow-600">{{ t(`support.${link.key}`) }}</p>
-                </div>
-                <span class="size-7 lg:size-9 inline-flex items-center justify-center rounded-full transition-all group-hover:translate-x-1 border border-white/5 bg-slate-900/60">
-                  <span class="text-lg text-red-200 -mt-1">→</span>
+                </span>
+                <span class="min-w-0 flex-1">
+                  <strong class="block overflow-hidden text-ellipsis whitespace-nowrap text-[15px] lg:text-base font-extrabold leading-tight tracking-[-0.04em] text-slate-900">{{ link.handle }}</strong>
+                  <small class="mt-1 block text-[11px] leading-tight text-slate-700/70 underline underline-offset-2 sm:text-xs">{{ t(`support.${link.key}`) }}</small>
+                </span>
+                <span class="size-7 inline-flex justify-center items-center shrink-0 rounded-full bg-linear-to-br from-[#26c8ff] via-[#0d90ea] to-[#0f7ae2] transition-transform duration-200 group-hover:translate-x-0.5 shadow-[0_10px_18px_rgba(14,165,233,0.2)]">
+                  <span class="text-[24px] -mt-1.25 leading-none text-white">→</span>
                 </span>
               </a>
             </div>
