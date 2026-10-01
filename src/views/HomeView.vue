@@ -66,7 +66,7 @@ const setLanguage = (language: SupportedLocale) => {
         id="contact-us"
         class="telegram-support-shell relative mt-4 overflow-hidden rounded-[20px] lg:rounded-3xl border border-[#92d6ff2e] bg-[rgba(8,26,61,0.36)] p-4 shadow-[0_28px_60px_rgba(7,14,30,0.42)] sm:p-5 lg:mt-10 lg:p-6"
       >
-        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-3 flex-col gap-6">
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-3 flex-col gap-4 lg:gap-6">
           <div
             v-for="(group, groupIndex) in supportGroups"
             :key="group.title"
@@ -98,7 +98,7 @@ const setLanguage = (language: SupportedLocale) => {
                   <small class="mt-1 block text-[11px] leading-tight text-slate-700/70 underline underline-offset-2 sm:text-xs">{{ t(`support.${link.key}`) }}</small>
                 </span>
                 <span class="size-7 inline-flex justify-center items-center shrink-0 rounded-full bg-linear-to-br from-[#26c8ff] via-[#0d90ea] to-[#0f7ae2] transition-transform duration-200 group-hover:translate-x-0.5 shadow-[0_10px_18px_rgba(14,165,233,0.2)]">
-                  <span class="text-[24px] -mt-1.25 leading-none text-white">→</span>
+                  <span class="text-[22px] -mt-1.25 leading-none text-white">→</span>
                 </span>
               </a>
             </div>
